@@ -28,6 +28,7 @@ a {
 
 .header-com-linha {
     position: relative;
+    
 }
 
 .header-com-linha::after {
@@ -51,6 +52,7 @@ a {
 
 .texto-principal{
     margin-top: 10%;
+    border: 1px solid red;
 }
 
 .texto-principal h1{
@@ -112,4 +114,34 @@ a {
 
 .textos-expeciais p{
     font-size: 1.2em;
+}
+
+
+/* --FOOTER-- */
+
+.footer {
+    background-color: #4d3227;
+    height: 18vw;
+    margin-top: 5%;
+}
+
+.container-footer {
+    text-align: center;
+    padding: 25px;
+}
+
+.container-footer ul{
+    list-style: none;
+}
+
+
+.container-footer ul li a{
+    padding: 12px;
+    text-decoration: none;
+    color: #ebc999;
+    font-size: 1.2em;
+}
+
+.container-footer ul li a:hover{
+    
 }
