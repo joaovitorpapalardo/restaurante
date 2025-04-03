@@ -56,7 +56,6 @@ a {
 
 .texto-principal{
     margin-top: 10%;
-    border: 1px solid red;
 }
 
 .texto-principal h1{
@@ -97,16 +96,11 @@ a {
 
 .secao-pratos-especiais {
     margin-top: 5%;
-    border: 1px solid red;
 }
 
 .titulo-especiais h2 {
     font-family: 'Courier New', Courier, monospace;
     font-weight: 600;
-}
-
-.container-especiais {
-    border: 1px solid blue;
 }
 
 .img-especiais {
@@ -169,8 +163,23 @@ a {
     width: 100%;
 }
 
+.list-icons {
+    margin-top: 20px;
+}
+
+.link-icons {
+    padding: 15px;
+    font-size: 2em;
+    color: #ebc999;
+    position: relative;
+}
+
+.link-icons:hover {
+    color:#fceedc;
+}
+
 .copyright {
-   font-size: 0.9em;
+   font-size: 1em;
    color: #ebc999;
    margin-top: 10px;
    word-wrap: break-word;
