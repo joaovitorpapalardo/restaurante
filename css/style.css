@@ -189,3 +189,7 @@ a {
 #cardapio {
     margin-top: 150px;
 }
+
+.linha {
+    border-right: 2px solid #6b5739; /* Linha vertical */
+}
